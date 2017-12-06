@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <table>
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>show</th>
+        </tr>
+        {% for participant in tabParticipants %}
+            <tr>
+                <td>{{ participant.id }}</td>
+                <td>{{ participant.name }}</td>
+                <td><a href={{ path('app_participant_show',{'id' : participant.id}) }}><button>show</button></a></td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock body %}

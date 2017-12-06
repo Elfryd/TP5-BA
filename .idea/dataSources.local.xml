@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - geoffreypolan@ipabdd.iut-lens.univ-artois.fr" uuid="9221ad5d-cad3-489b-845f-e4fb05c25201">
+      <secret-storage>memory</secret-storage>
+      <user-name>geoffrey.polan</user-name>
+      <introspection-scope>geoffreypolan:</introspection-scope>
+      <resolve-scope>geoffreypolan:</resolve-scope>
+    </data-source>
+  </component>
+</project>
